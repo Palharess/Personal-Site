@@ -1,0 +1,53 @@
+h1{
+    color: black;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 4rem;
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+body{
+    background-color: white;
+}
+
+p{
+    color: black;
+    margin-bottom: 5%;
+
+}
+
+.disc{
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: center;
+}
+
+.round{
+    border-radius: 50%;
+    width: 10.5rem;
+    height: 10rem;
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+}
+
+img{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+
+#socials{
+    margin: auto;
+}
+
+i{
+    color: black;
+}
+
+.social:hover{
+    color: red;
+}
