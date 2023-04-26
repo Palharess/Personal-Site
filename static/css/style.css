@@ -48,6 +48,26 @@ i{
     color: black;
 }
 
-.social:hover{
-    color: red;
+i:hover {
+    color: rgb(56, 55, 55);
+}
+
+nav{
+    margin: auto;
+}
+
+.nav-item{
+    padding-left: 14px;
+    padding-right: 14px;
+}
+
+#cont{
+    width: 35%;
+}
+
+@media (min-width: 1200px){
+    #cont{
+        width: 26%;
+        color: red;
+    }
 }
