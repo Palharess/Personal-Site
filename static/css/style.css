@@ -2,6 +2,7 @@ body{
     background-color: #2b2b2b;
     font-family: "Montserrat, sans-serif";
     font-weight: 400;
+    color: white;
 }
 
 h1{
@@ -47,6 +48,7 @@ hr{
 img{
     margin-top: 5%;
     margin-bottom: 7%;
+    border-radius: 50%;
 }
 
 #socials{
@@ -80,4 +82,47 @@ i:hover {
         width: 26.6%;
         color: black;
     }
+    .container{
+        margin-top: 7%;
+    }
+}
+
+#skills_title{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 6rem;
+}
+
+.name{
+    font-size: 4rem;
+    width: 19%;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+
+.name2{
+    font-size: 4rem;
+    width: 25%;
+    margin: auto;
+    margin-bottom: 1rem;  
+}
+
+.imgs{
+    width: 12rem;
+    height: 12rem;
+    margin-bottom: 5rem;
+    margin-left: 10rem;
+
+}
+
+.item {
+    margin-left: 40px;
+}
+
+.cr_text{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 4rem;
+    margin-right: 10rem;
+    
 }
