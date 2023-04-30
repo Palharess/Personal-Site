@@ -126,3 +126,21 @@ i:hover {
     margin-right: 10rem;
     
 }
+
+#inf{
+    font-size: 2.8rem;
+    font-family: "Montserrat, sans-serif";
+    font-weight: 400;
+    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+}
+
+#tt2{
+    font-family: "Montserrat, sans-serif";
+    font-weight: 400;
+    font-size: 1.4rem;
+}
+
+#contact{
+    margin-bottom: 1rem;
+}
