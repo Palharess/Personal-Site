@@ -75,7 +75,11 @@ i:hover {
     font-size: 1.8rem;
 }
 
-
+#skills_title{
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 6rem;
+}
 
 @media (min-width: 1500px){
     #cont{
@@ -85,13 +89,16 @@ i:hover {
     .container{
         margin-top: 7%;
     }
+    #skills_title{
+        margin-top: 6.5rem;
+        margin-bottom: 6rem;
+        margin-right: 6rem;
+    }
 }
 
-#skills_title{
-    margin-top: 3rem;
-    margin-bottom: 4rem;
-    font-size: 6rem;
-}
+
+
+
 
 .name{
     font-size: 4rem;
