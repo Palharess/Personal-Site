@@ -1,0 +1,27 @@
+{%include "header.html"%}
+
+
+<body>
+    {%block content%}
+    <h1 id="contact">Contact Me</h1>
+    <div class="container" style="width: 50%;">
+
+    <form action="mailto:gabrielpalhares333@gmail.com" method="get" enctype="text/plain">
+        <fieldset>
+          <legend id="inf">Info</legend>
+          <div class="mb-3">
+            <label id="tt2"class="form-label">Name</label>
+            <br>
+            <input type="text" class="form-control" placeholder="Your Name" name="subject"><br>
+          </div>
+          <div class="mb-3">
+            <label id="tt2" class="form-label">Message</label>
+            <textarea class="form-control" name="body" id="" rows="10"></textarea>
+          </div>
+          <button type="submit" class="btn btn-light">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+
+    {%endblock%}
+</body>

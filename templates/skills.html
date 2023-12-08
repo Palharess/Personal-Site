@@ -1,0 +1,66 @@
+{%include "header.html"%}
+
+<body>
+    {%block content%}
+    <h1 id="skills_title">Skills</h1>
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="item carousel-item active">
+            <h3 class="name">Python</h3>
+            <div class="d-flex justify-content-center">
+                <div class="container" style="margin-top: 0%;">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;">
+                            <img src="../static/img/python.webp" alt="" class="imgs">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;">
+                            <p class="cr_text">This was the first language that I started. 
+                                While I was learning I worked with APIs and Frameworks. I have some experience in 
+                                <span style="color: blue;"><b>Data Science</b></span> <span style="color: blue;">
+                                    (Matplotlib, SQLAlchemy, SQLite)</span> , <span style="color: red;"> <b>Web Scrapping</b> 
+                                        (BS4)</span>, <span style="color: purple;"> <b>Web Development</b> (Flask, Jinja)</span>. </p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            
+          </div>
+          <div class="item carousel-item">
+            <h3 class="name2">WEB DEV</h3>
+            <div class="d-flex justify-content-center">
+                <div class="container" style="margin-top: 0%;">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;">
+                            <img src="../static/img/222-2229518_html-css-icon-png.png" alt="" class="imgs">
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6" style="text-align: center;">
+                            <p class="cr_text">For practice I have done some sites and blogs using <span style="color: yellow;">Html, Javascript, Css</span>. I've used <span style="color: purple;"> <b>Bootstrap and React</b></span> to help in the styling and Python for the Back-End. And i have used <span style="color: blue;">SQLite and SQLAlchemy</span> for Databases</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+            
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <hr>
+      {% include "footer.html" %}
+    {%endblock%}
+</body>
